@@ -1,0 +1,260 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>游戏列表</title>
+	<link rel="stylesheet" href="css/steam.css">
+	<script src="js/jq.js"></script>
+	<script src="js/js.js"></script>
+	<script>
+		window.onload=function(){
+			var script=document.createElement("script");
+			script.src="http://wangdawei.tech:81/recommendGame?callback=fn"
+			document.getElementsByTagName('head')[0].appendChild(script);
+		}
+	</script>
+</head>
+<body>
+	<div class="topnav">
+		<div class="w cf">
+			<div class="logo fl">
+			<a href=""><img src="images/steam_logo.png" alt=""></a>
+			</div>
+			<ul class="fl">
+				<li class="sdd"><a href="">商店</a>
+					<div class="sd">
+						<a href="">精选</a>
+						<a href="">探索</a>
+						<a href="">鉴赏家</a>
+						<a href="">愿望单</a>
+						<a href="">新闻</a>
+						<a href="">统计</a>
+					</div>
+				</li>
+				<li  class="sqq"><a href="">社区</a>
+					<div class="sq">
+						<a href="">主页</a>
+						<a href="">讨论</a>
+						<a href="">创意工坊</a>
+						<a href="">市场</a>
+						<a href="">实况直播</a>
+					</div>
+				</li>
+				<li><a href="">关于</a></li>
+				<li><a href="">客服</a></li>
+			</ul>
+			<ol class="fr">
+				<li class="xzli"><a href="" class="xz">安装steam</a></li>
+				<li><a href="">登录</a></li>
+				<li><span>|</span></li>
+				<li><a href="">语言</a></li>
+			</ol>
+		</div>
+	</div>
+	<div class="content">
+		<div class="w">
+			<ul>
+				<li>
+					<a href="">您的商店<span></span></a>
+					<div class="contentbox">
+						<a href="">商店主页</a>
+						<hr>
+						<a href="">最近查看过的	</a>
+						<a href="">Steam 鉴赏家</a>
+						<a href="">最近更新</a>
+					</div>
+				</li>
+				<li><a href="">游戏<span></span></a>
+					<div class="contentbox contentbox2">
+						<a href="">免费游玩</a>
+						<a href="">抢先体验</a>
+						<a href="">试玩</a>
+						<a href="">虚拟现实</a>
+						<a href="">支持 Steam 控制器</a>
+						<a href="">Steam 上的网吧游戏</a>
+						<hr>
+						<h5>按类型浏览：</h5>
+						<a href="">休闲</a>
+						<a href="">体育</a>
+						<a href="">冒险</a>
+						<a href="">动作</a>
+						<a href="">大型多人在线</a>
+						<a href="">模拟</a>
+						<a href="">独立</a>
+						<a href="">竞速</a>
+						<a href="">策略</a>
+						<a href="">角色扮演</a>
+						<hr>
+						<a href="">查看热门标签</a>
+						<hr>
+						<h5>按平台浏览：</h5>
+						<a href="">Mac OS X</a>
+						<a href="">SteamOS + Linux</a>
+					</div>
+				</li>
+				<li><a href="">软件<span></span></a>
+					<div class="contentbox contentbox3">
+						<a href="">软件中心</a>
+						<hr>
+						<a href="">动画制作與建模</a>
+						<a href="">实用工具</a>
+						<a href="">教育</a>
+						<a href="">游戏开发</a>
+						<a href="">照片编辑</a>
+						<a href="">网络出版</a>
+						<a href="">视频制作</a>
+						<a href="">设计与插画</a>
+						<a href="">音频制作</a>
+					</div>
+				</li>
+				<li><a href="">硬件<span></span></a>
+					<div class="contentbox">
+						<a href="">Steam 控制器	</a>
+						<a href="">Steam 流式盒</a>
+						<a href="">HTC Vive</a>
+					</div>
+				</li>
+				<li><a href="">视频<span></span></a>
+					<div class="contentbox contentbox5" >
+						<a href="">视频中心</a>
+						<hr>
+						<h5>按类型浏览：</h5>
+						<a href="">电影</a>
+						<a href="">剧情</a>
+						<a href="">纪录片</a>
+						<a href="">游戏</a>
+						<a href="">教程</a>
+						<a href="">短片</a>
+						<h5>按类型浏览：</h5>
+						<a href="">动作</a>
+						<a href="">日本动漫</a>
+						<a href="">纪录片</a>
+						<a href="">欢乐</a>
+						<a href="">剧情</a>
+						<a href="">恐怖</a>
+						<a href="">科幻</a>
+						
+					</div>
+				</li>
+				<li><a href="" class="xw">新闻</a></li>
+				<li class="fr"><input type="text" placeholder="搜索商店"><u class="u"></u></li>
+			</ul>
+			<div class="nav-left">
+				<div class="nav-left1">
+					<a href=""><img src="images/nav-left1.png" alt="" class="img1"></a>
+					<span>礼物卡</span>
+				</div>
+				<a class="gutter_item">
+					现已现已在 steam 上推出
+				</a>
+				<span>推荐</span>
+				<div class="gutter_items cf">
+					<a href="" class="gutter_item">
+					<i></i>有好友推荐</a>
+					<a href="" class="gutter_item gutter_item2" > <i></i>由鉴赏家推荐</a>
+					<a href="" class="gutter_item gutter_item3"><i></i>标签</a>
+				</div>
+				<span>探索队列</span>
+				<div class="gutter_items cf">
+					<a href="" class="gutter_item gutter_item4">
+					<i></i>推荐</a>
+					<a href="" class="gutter_item gutter_item5" > <i></i>新品</a>
+				</div>
+				<span>浏览分类</span>
+				<div class="gutter_items cf">
+					<a href="" class="gutter_item gutter_item6"><i></i> 热销商品</a>
+					<a href="" class="gutter_item gutter_item7" > <i></i> 最近更新</a>
+					<a href="" class="gutter_item gutter_item8"><i></i>  新品</a>
+					<a href="" class="gutter_item gutter_item9" > <i></i>  即将推出</a>
+					<a href="" class="gutter_item gutter_item10"><i></i>  优惠</a>
+					<a href="" class="gutter_item gutter_item11" > <i></i>  虚拟现实</a>
+					<a href="" class="gutter_item gutter_item12" > <i></i>  支持 Steam 控制器</a>
+				</div>
+				<span>按类型浏览</span>
+				<div class="gutter_items ">
+					<a class="gutter_item">
+						免費游玩
+					</a>
+					<a class="gutter_item">
+						抢先体验
+					</a>
+					<a class="gutter_item">
+						休闲
+					</a>
+					<a class="gutter_item">
+						体育
+					</a>
+					<a class="gutter_item">
+						冒险
+					</a>
+					<a class="gutter_item">
+						动作
+					</a>
+					<a class="gutter_item">
+						大型多人在线
+					</a>
+					<a class="gutter_item">
+						模拟
+					</a>
+					<a class="gutter_item">
+						独立
+					</a>
+					<a class="gutter_item">
+						竞速
+					</a>
+					<a class="gutter_item">
+						策略
+					</a>
+					<a class="gutter_item">
+						角色扮演
+					</a>
+				</div>
+				<span>最近查看</span>
+				<div class="gutter_items gutter_items2">
+				</div>
+			</div>
+			<h3 class="h3">精选和推荐</h3>
+			<div id="wrap">
+				<div id="tem" class="cf yc dw">
+					<div class="left">
+						<img src="" alt="">
+					</div>
+					<ul id="ul">
+						<li>
+							<h2 class="name"></h2>
+							<img src="" alt="">
+							<img src="" alt="">
+							<img src="" alt="">
+							<img src="" alt="">
+							<h3>现已推出</h3>
+							<span class="rxsp">热销商品</span>
+							<p class="price">
+								<span class="price1"></span>
+								<span class="price2"></span>
+								<span class="price3"></span>
+							</p>
+							<div class="box">
+								<div class="box1"></div>
+								<div class="box2">
+									<h4></h4>
+									<p class="fx"></p>
+									<div class="imgw">
+										<img src="" alt="">
+										<img src="" alt="">
+										<img src="" alt="">
+										<img src="" alt="">
+									</div>
+								<p class="bq"></p>
+								</div>		
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="prev"></div>
+				<div class="next"></div>
+				<div class="yuandian"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>  
